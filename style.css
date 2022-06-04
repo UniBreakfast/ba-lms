@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+}
+
+#wrapper>header {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+}
+
+#wrapper>header h1 {
+  margin: 0;
+}
+
+#wrapper>header>.group {
+  display: flex;
+}
+
+main {
+  display: flex;
+  height: calc(100vh - 40px);
+  overflow: auto;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main>header {
+  display: flex;
+  width: 100%;
+}
+
+.main>article {
+  max-width: calc(100% - 300px);
+}
+
+.main>.lessons {
+  max-width: 300px;
+  max-height: 80vh;
+  margin-left: auto;
+  overflow: auto;
+}
